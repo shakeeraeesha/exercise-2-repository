@@ -6,17 +6,19 @@ function printQuote() {
     quotation = Math.floor(Math.random() * 3)
     
     if (quotation == 1) {
-        print(string1)
+        console.log(string1)
     }
 
     if (quotation == 2) {
-        print(string2)
+        console.log(string2)
     }
 
     else {
-        print(string3)
+        console.log(string3)
     }
     
 }
+
+
 
 
